@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<classpath>
+	<classpathentry kind="src" output="target/classes" path="src/main/java">
+		<attributes>
+			<attribute name="optional" value="true"/>
+			<attribute name="maven.pomderived" value="true"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry excluding="**" kind="src" output="target/classes" path="src/main/resources">
+		<attributes>
+			<attribute name="maven.pomderived" value="true"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry kind="src" output="target/test-classes" path="src/test/java">
+		<attributes>
+			<attribute name="test" value="true"/>
+			<attribute name="optional" value="true"/>
+			<attribute name="maven.pomderived" value="true"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry kind="con" path="org.eclipse.jdt.launching.JRE_CONTAINER/org.eclipse.jdt.internal.debug.ui.launcher.StandardVMType/JavaSE-1.8">
+		<attributes>
+			<attribute name="module" value="true"/>
+			<attribute name="maven.pomderived" value="true"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry kind="con" path="org.eclipse.m2e.MAVEN2_CLASSPATH_CONTAINER">
+		<attributes>
+			<attribute name="maven.pomderived" value="true"/>
+			<attribute name="org.eclipse.jst.component.nondependency" value=""/>
+		</attributes>
+	</classpathentry>
+	<classpathentry kind="lib" path="/data/Documents/Semestre3/JEE/JARHibernate/slf4j-jdk14-1.5.2.jar"/>
+	<classpathentry kind="lib" path="/data/Documents/Semestre3/JEE/JARHibernate/slf4j-api-1.5.2.jar"/>
+	<classpathentry kind="lib" path="/data/Documents/Semestre3/JEE/JARHibernate/ojdbc14_g.jar"/>
+	<classpathentry kind="lib" path="/data/Documents/Semestre3/JEE/JARHibernate/jta-1.1.jar"/>
+	<classpathentry kind="lib" path="/data/Documents/Semestre3/JEE/JARHibernate/jstl-impl-1.2.jar"/>
+	<classpathentry kind="lib" path="/data/Documents/Semestre3/JEE/JARHibernate/jstl-api-1.2.jar"/>
+	<classpathentry kind="lib" path="/data/Documents/Semestre3/JEE/JARHibernate/javassist-3.4.GA.jar"/>
+	<classpathentry kind="lib" path="/data/Documents/Semestre3/JEE/JARHibernate/hibernate3.jar"/>
+	<classpathentry kind="lib" path="/data/Documents/Semestre3/JEE/JARHibernate/dom4j-1.6.1.jar"/>
+	<classpathentry kind="lib" path="/data/Documents/Semestre3/JEE/JARHibernate/commons-logging.jar"/>
+	<classpathentry kind="lib" path="/data/Documents/Semestre3/JEE/JARHibernate/commons-collections-3.1.jar"/>
+	<classpathentry kind="lib" path="/data/Documents/Semestre3/JEE/JARHibernate/antlr-2.7.6.jar"/>
+	<classpathentry kind="lib" path="/data/Documents/Semestre3/JEE/apache-tomcat-8.5.71/lib/catalina.jar"/>
+	<classpathentry kind="lib" path="/data/Documents/Semestre3/JEE/apache-tomcat-8.5.71/lib/catalina-tribes.jar"/>
+	<classpathentry kind="lib" path="/data/Documents/Semestre3/JEE/apache-tomcat-8.5.71/lib/catalina-storeconfig.jar"/>
+	<classpathentry kind="lib" path="/data/Documents/Semestre3/JEE/apache-tomcat-8.5.71/lib/catalina-ha.jar"/>
+	<classpathentry kind="lib" path="/data/Documents/Semestre3/JEE/apache-tomcat-8.5.71/lib/catalina-ant.jar"/>
+	<classpathentry kind="lib" path="/data/Documents/Semestre3/JEE/apache-tomcat-8.5.71/lib/annotations-api.jar"/>
+	<classpathentry kind="lib" path="/data/Documents/Semestre3/JEE/apache-tomcat-8.5.71/lib/websocket-api.jar"/>
+	<classpathentry kind="lib" path="/data/Documents/Semestre3/JEE/apache-tomcat-8.5.71/lib/tomcat-websocket.jar"/>
+	<classpathentry kind="lib" path="/data/Documents/Semestre3/JEE/apache-tomcat-8.5.71/lib/tomcat-util.jar"/>
+	<classpathentry kind="lib" path="/data/Documents/Semestre3/JEE/apache-tomcat-8.5.71/lib/tomcat-util-scan.jar"/>
+	<classpathentry kind="lib" path="/data/Documents/Semestre3/JEE/apache-tomcat-8.5.71/lib/tomcat-jni.jar"/>
+	<classpathentry kind="lib" path="/data/Documents/Semestre3/JEE/apache-tomcat-8.5.71/lib/tomcat-jdbc.jar"/>
+	<classpathentry kind="lib" path="/data/Documents/Semestre3/JEE/apache-tomcat-8.5.71/lib/tomcat-i18n-zh-CN.jar"/>
+	<classpathentry kind="lib" path="/data/Documents/Semestre3/JEE/apache-tomcat-8.5.71/lib/tomcat-i18n-ru.jar"/>
+	<classpathentry kind="lib" path="/data/Documents/Semestre3/JEE/apache-tomcat-8.5.71/lib/tomcat-i18n-ko.jar"/>
+	<classpathentry kind="lib" path="/data/Documents/Semestre3/JEE/apache-tomcat-8.5.71/lib/tomcat-i18n-ja.jar"/>
+	<classpathentry kind="lib" path="/data/Documents/Semestre3/JEE/apache-tomcat-8.5.71/lib/tomcat-i18n-fr.jar"/>
+	<classpathentry kind="lib" path="/data/Documents/Semestre3/JEE/apache-tomcat-8.5.71/lib/tomcat-i18n-es.jar"/>
+	<classpathentry kind="lib" path="/data/Documents/Semestre3/JEE/apache-tomcat-8.5.71/lib/tomcat-i18n-de.jar"/>
+	<classpathentry kind="lib" path="/data/Documents/Semestre3/JEE/apache-tomcat-8.5.71/lib/tomcat-dbcp.jar"/>
+	<classpathentry kind="lib" path="/data/Documents/Semestre3/JEE/apache-tomcat-8.5.71/lib/tomcat-coyote.jar"/>
+	<classpathentry kind="lib" path="/data/Documents/Semestre3/JEE/apache-tomcat-8.5.71/lib/tomcat-api.jar"/>
+	<classpathentry kind="lib" path="/data/Documents/Semestre3/JEE/apache-tomcat-8.5.71/lib/servlet-api.jar"/>
+	<classpathentry kind="lib" path="/data/Documents/Semestre3/JEE/apache-tomcat-8.5.71/lib/jsp-api.jar"/>
+	<classpathentry kind="lib" path="/data/Documents/Semestre3/JEE/apache-tomcat-8.5.71/lib/jaspic-api.jar"/>
+	<classpathentry kind="lib" path="/data/Documents/Semestre3/JEE/apache-tomcat-8.5.71/lib/jasper.jar"/>
+	<classpathentry kind="lib" path="/data/Documents/Semestre3/JEE/apache-tomcat-8.5.71/lib/jasper-el.jar"/>
+	<classpathentry kind="lib" path="/data/Documents/Semestre3/JEE/apache-tomcat-8.5.71/lib/el-api.jar"/>
+	<classpathentry kind="lib" path="/data/Documents/Semestre3/JEE/apache-tomcat-8.5.71/lib/ecj-4.6.3.jar"/>
+	<classpathentry kind="output" path="target/classes"/>
+</classpath>

@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- Generated 19 déc. 2021 à 20:07:16 by Hibernate Tools 5.4.14.Final --><!DOCTYPE hibernate-mapping PUBLIC "-//Hibernate/Hibernate Mapping DTD 3.0//EN" "http://www.hibernate.org/dtd/hibernate-mapping-3.0.dtd">
+<hibernate-mapping auto-import="true" default-access="property" default-cascade="none" default-lazy="true">
+    <class catalog="verycars" dynamic-insert="false" dynamic-update="false" mutable="true" name="hibernate.Voiture" optimistic-lock="version" polymorphism="implicit" select-before-update="false" table="voiture">
+        <id name="id" type="java.lang.Integer">
+            <column name="id"/>
+            <generator class="identity"/>
+        </id>
+        <property generated="never" lazy="false" name="type" optimistic-lock="true" type="string" unique="false">
+            <column length="10" name="type"/>
+        </property>
+        <property generated="never" lazy="false" name="image" optimistic-lock="true" type="string" unique="false">
+            <column length="50" name="image"/>
+        </property>
+        <property generated="never" lazy="false" name="nom" optimistic-lock="true" type="string" unique="false">
+            <column length="30" name="nom"/>
+        </property>
+        <property generated="never" lazy="false" name="prix" optimistic-lock="true" type="string" unique="false">
+            <column length="15" name="prix"/>
+        </property>
+        <property generated="never" lazy="false" name="description" optimistic-lock="true" type="string" unique="false">
+            <column length="250" name="description"/>
+        </property>
+        <property generated="never" lazy="false" name="stock" optimistic-lock="true" type="java.lang.Integer" unique="false">
+            <column name="stock"/>
+        </property>
+    </class>
+</hibernate-mapping>
